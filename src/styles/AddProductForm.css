@@ -1,0 +1,60 @@
+/* AddProductForm.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  input,
+  textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 1rem;
+  }
+  
+.image-section {
+    margin-bottom: 20px;
+  }
+  
+  .image-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .image-section input[type="file"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  .image-section input[type="file"]:focus {
+    outline: none;
+  }
+  
